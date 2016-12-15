@@ -238,7 +238,7 @@ grandmotherinlaw(X, Y)   :-  female(X),         grandparentinlaw(X, Y).
 stepgrandparent(X, Y)    :-  parent(Z,Y), stepparent(X,Z).
 stepgrandparent(X, Y)    :-  stepparent(Z,Y), parent(X,Z).
 	% -------------------------------------------
-	% Example (1):  stepgrandparent(nicole, alberta).
+	% Example (1): stepgrandparent(nicole, alberta).
 	% Example (2): stepgrandparent(lydia, sean).
 	% -------------------------------------------
 
